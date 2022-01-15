@@ -1,6 +1,6 @@
 {
-  "name": "react-native-es",
-  "version": "0.1.0",
+  "name": "rn-ltbl",
+  "version": "0.0.1",
   "description": "test",
   "main": "src/lightning.ts",
   "types": "dist/lightning.d.ts",
@@ -10,7 +10,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-es.podspec",
+    "rn-ltbl.podspec",
     "!android/build",
     "!ios/build",
     "!**/__tests__",
