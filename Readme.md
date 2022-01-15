@@ -25,13 +25,13 @@ This module has been inspired by many projects out there in the wild, some of wh
 Using npm:
 
 ```bash
-$ npm install react-native-es, react-native-randombytes, react-native-keychain
+$ npm install rn-ltbl, react-native-randombytes, react-native-keychain
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add react-native-es, react-native-randombytes, react-native-keychain
+$ yarn add rn-ltbl, react-native-randombytes, react-native-keychain
 ```
 
 [IOS Only] Install pods:
