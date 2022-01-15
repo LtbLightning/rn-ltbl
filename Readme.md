@@ -1,6 +1,6 @@
 # Let there be Lightning!
 
-`**rn-ltbl**` is a React Native module to add LND lightning node to mobile app. This is a simple library providing all LND commands from react native context. Onchain and offchain balances along with all LND commands including channel management. There is no need to build mobile binaries and add them to the project as the latest LND version has already been built for IOS and Android and configured and packaged with the module. This module has been built to make implementing lightning in mobile apps simple for developers in addtion, for users it eliminates the need to have their own node. This allows for fully non custodial lightning network implementation.
+`rn-ltbl` is a React Native module to add LND lightning node to mobile app. This is a simple library providing all LND commands from react native context. Onchain and offchain balances along with all LND commands including channel management. There is no need to build mobile binaries and add them to the project as the latest LND version has already been built for IOS and Android and configured and packaged with the module. This module has been built to make implementing lightning in mobile apps simple for developers in addtion, for users it eliminates the need to have their own node. This allows for fully non custodial lightning network implementation.
 
 This is an ⍺ release please use with caution and use on mainnet at your own risk, no guarantees!
 
@@ -25,13 +25,13 @@ This module has been inspired by many projects out there in the wild, some of wh
 Using npm:
 
 ```bash
-$ npm install rn-ltbl, react-native-randombytes, react-native-keychain
+$ npm install rn-ltbl react-native-randombytes react-native-keychain
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add rn-ltbl, react-native-randombytes, react-native-keychain
+$ yarn add rn-ltbl react-native-randombytes react-native-keychain
 ```
 
 [IOS Only] Install pods:
