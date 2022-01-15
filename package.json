@@ -1,6 +1,6 @@
 {
   "name": "rn-ltbl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test",
   "main": "src/lightning.ts",
   "types": "dist/lightning.d.ts",
