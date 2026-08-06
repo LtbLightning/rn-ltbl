@@ -14,7 +14,7 @@ export const setKeychainValue = async ({
 } = {}): Promise<Response> => {
   return new Promise(async (resolve) => {
     try {
-      const result = await Keychain.setGenericPassword(key, value, key);
+      const result = await Keychain.setGenericPassword(key, value, {service: key});
       resolve(success(result));
     } catch (e: any) {
       resolve(failure(e));
@@ -27,7 +27,7 @@ export const getKeychainValue = async ({
 } = {}): Promise<Response> => {
   return new Promise(async (resolve) => {
     try {
-      const result = await Keychain.getGenericPassword(key);
+      const result = await Keychain.getGenericPassword({service: key});
       resolve(success(result));
     } catch (e: any) {
       resolve(failure(e));
@@ -41,7 +41,7 @@ export const resetKeychainValue = async ({
 } = {}): Promise<Response> => {
   return new Promise(async (resolve) => {
     try {
-      const result = await Keychain.resetGenericPassword(key);
+      const result = await Keychain.resetGenericPassword({service: key});
       resolve(success(result));
     } catch (e: any) {
       resolve(failure(e));
